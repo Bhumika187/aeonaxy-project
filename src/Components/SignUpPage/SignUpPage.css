@@ -1,0 +1,118 @@
+.signup-container {
+    max-width: 450px;
+    margin: 50px auto; 
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    /* border: 1px solid #ccc; */
+  }
+  
+  .signup-btn {
+    background-color: #ED3B82;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .signup-btn:hover {
+    background-color:#ED3B82;
+  }
+  
+  .sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .new-grp{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+  } */
+
+  /* Media queries for tablet and desktop */
+
+
+  /* SignUpPage.css */
+
+/* Your existing styles */
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .signup-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .side-img {
+    display: none; /* Hide the side image on smaller screens */
+  }
+
+  /* Adjust form styling for smaller screens */
+  .signup-form {
+    width: 100%;
+  }
+
+  .form-group {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+/* Additional media queries for even smaller screens if needed */
+@media screen and (max-width: 480px) {
+  /* Add your styles for smaller screens here */
+
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .signup-container {
+    width: 80%;
+    padding: 20px;
+  }
+
+  .side-img {
+    display: none; /* Hide the side image on smaller screens */
+  }
+
+  /* Adjust form styling for smaller screens */
+  .signup-form {
+    width: 80%;
+  }
+
+  .form-group {
+    width: 80%;
+    margin-bottom: 15px;
+  }
+}

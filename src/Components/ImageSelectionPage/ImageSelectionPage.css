@@ -1,0 +1,57 @@
+.btn{
+    background-color: 	#ED3B82;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* ImageSelectionPage.css */
+
+/* Your existing styles */
+
+/* ImageSelectionPage.css */
+
+/* Your existing styles */
+
+/* Media queries for mobile phones */
+@media screen and (max-width: 480px) {
+    .image-selection-container {
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+  
+    .text-xl {
+      font-size: 1.5rem; /* Decrease font size for smaller screens */
+    }
+  
+    .text-2xl {
+      font-size: 1.75rem; /* Decrease font size for smaller screens */
+    }
+  
+    .mb-40 {
+      margin-bottom: 20px; /* Reduce bottom margin for smaller screens */
+    }
+  
+    .gap-8 {
+      gap: 10px; /* Increase gap between images for smaller screens */
+    }
+  
+    .image-container {
+      width: calc(33.33% - 20px); /* Adjust image container width for smaller screens */
+      max-width: 100px; /* Limit maximum image container width */
+      height: auto; /* Let the height adjust according to the width */
+    }
+  
+    .image {
+      width: 80%; /* Make images fill the container width */
+      height: auto; /* Let the height adjust according to the width */
+    
+    }
+  
+    .btn {
+      width: 100%; /* Make button fill the container width */
+    }
+  }
+  
