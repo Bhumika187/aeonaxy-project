@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aeonaxy-project/static/css/main.6acc0fb6.css",
+    "main.js": "/aeonaxy-project/static/js/main.ef6ffc04.js",
+    "static/js/453.eaec36d9.chunk.js": "/aeonaxy-project/static/js/453.eaec36d9.chunk.js",
+    "index.html": "/aeonaxy-project/index.html",
+    "main.6acc0fb6.css.map": "/aeonaxy-project/static/css/main.6acc0fb6.css.map",
+    "main.ef6ffc04.js.map": "/aeonaxy-project/static/js/main.ef6ffc04.js.map",
+    "453.eaec36d9.chunk.js.map": "/aeonaxy-project/static/js/453.eaec36d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6acc0fb6.css",
+    "static/js/main.ef6ffc04.js"
+  ]
+}
