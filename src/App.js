@@ -10,10 +10,10 @@ function App(){
     <>
    <BrowserRouter>
    <Switch>
-     <Route path='/' component={<SignUpPage/>}></Route>
-     <Route path='/profile' component={ <ProfileCreationPage/>}></Route>
-     <Route path='/img' component={ <ImageSelectionPage/>}></Route>
-     <Route path='/finish' component={<LastPage/>}></Route>
+     <Route path='/' component={SignUpPage}></Route>
+     <Route path='/profile' component={ ProfileCreationPage}></Route>
+     <Route path='/img' component={ ImageSelectionPage}></Route>
+     <Route path='/finish' component={LastPage}></Route>
    </Switch>
    </BrowserRouter>
    </>
