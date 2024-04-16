@@ -8,14 +8,14 @@ import LastPage from './Components/LastPage/LastPage';
 function App(){
   return(
     <>
-   <BrowserRouter>
+   
    <Switch>
      <Route path='/' component={<SignUpPage/>}></Route>
      <Route path='/profile' component={ <ProfileCreationPage/>}></Route>
      <Route path='/img' component={ <ImageSelectionPage/>}></Route>
      <Route path='/finish' component={<LastPage/>}></Route>
    </Switch>
-   </BrowserRouter>
+
    </>
   );
 }
