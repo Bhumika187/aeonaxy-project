@@ -1,7 +1,7 @@
 {
   "name": "aeonaxy-project",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://Bhumika187.github.io/aeonaxy-project",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
