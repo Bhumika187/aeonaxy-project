@@ -2,7 +2,6 @@
   "name": "aeonaxy-project",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://bhumika187.github.io/aeonaxy-project",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
