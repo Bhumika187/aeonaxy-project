@@ -1,8 +1,19 @@
+
 [build]
-command="npm run build"
-publish="build/"
-base="front/"
+  Directory to change to before starting build
+  base = "public"
+  Build command
+  command = "npm run build"
+  Functions directory (optional)
+  functions = "functions"
+
 [[redirects]]
-from="/*"
-to="/index.html"
-status=200
+   Redirect all requests to the root domain to the primary site
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+
+[build.environment]
+ Example environment variable
+  NODE_ENV = "production"
